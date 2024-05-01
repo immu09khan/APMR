@@ -1,0 +1,41 @@
+.card {
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: auto; /* Center the card horizontally */
+    padding: 30px; /* Add padding for spacing inside the card */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 24px; /* Increase font size for the card title */
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control-lg {
+    height: 60px; /* Increase height for larger input fields */
+    font-size: 18px; /* Increase font size for better readability */
+}
+
+textarea.form-control-lg {
+    height: 180px; /* Increase height for larger textarea */
+    font-size: 18px; /* Increase font size for better readability */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

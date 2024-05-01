@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+
+body {
+  background-color: #f8f9fa; /* Set a background color for the entire page */
+}
+
+.card {
+  /* Additional styling for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  padding: 20px; /* Padding inside the card */
+  background-color: #bed4ec;
+}
+
+.btn-primary {
+  /* Custom styling for primary buttons */
+  background-color: #007bff; /* Primary button color */
+  border-color: #a4c3e4; /* Border color */
+}
+
+.btn-primary:hover {
+  /* Custom styling for primary button on hover */
+  background-color: #0056b3; /* Darker color on hover */
+  border-color: #0056b3; /* Darker border color on hover */
+}
