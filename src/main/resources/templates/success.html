@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div align="center">
+	<h1>Registration Succeeded!!!</h1>
+	<span>Full Name:</span><span th:text="${user.name}"></span><br />
+	<span>Email Address:</span><span th:text="${user.email}"></span><br />
+	<span>Phone Number:</span><span th:text="${user.phone}"></span><br />
+	<span>Password:</span><span th:text="${user.password}"></span><br />
+	<span>Re-Password:</span><span th:text="${user.re_password}"></span><br />
+	<span>gender:</span><span th:text="${user.gender}"></span><br />
+	<span>Terms & Condition</span><span th:text="${user.agree_term}"></span>
+	</div>
+</body>
+</html>
